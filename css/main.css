@@ -1,0 +1,110 @@
+/*Margin-Padding*/
+.mgt-2{
+	margin-top: 2%;
+}
+.mgb-2{
+	margin-bottom: 2%;
+}
+.mgt-4{
+	margin-top: 4%;
+}
+.mgb-4{
+	margin-bottom: 4%;
+}
+/*Fuente todos*/
+*{
+	font-family: Oswald;
+}
+/*Header*/
+#header{
+	text-align: center;
+}
+a{
+	color:#000000;
+	font-size:14px;
+	text-decoration:none;
+	padding: 0px 40px;
+	letter-spacing: 2px;
+}
+/*Banner con Imagen fondo y texto*/
+/*Si quito width y height de la clase .crop se ve igual*/
+.crop{
+	width: 100%;
+	height: 20%;
+	overflow: hidden;
+	border-top: 1px solid #5C0B44;
+	border-bottom: 1px solid #5C0B44;
+}
+.crop img{
+	width: 100%;
+	height: 20%;
+	margin: -5% 0 -20% 0;
+	position: relative;
+	opacity: 0.8;
+}
+.logo{
+	max-width: 10%;
+}
+.over{
+	width: 100%;
+	position: absolute;
+	top: 18%;
+	left: 0%;
+	text-align: center;
+}
+.txt-over{
+	color: #5C0B44;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+/*Subtitulos*/
+.subtitle{
+	font-size: 16px;
+	color: #5C0B44;
+	text-align: center;
+	letter-spacing: 2px;
+}
+/*About Me*/
+.perfil{
+	max-width: 150px;
+	border-radius: 100px;
+	border: 2px solid #5C0B44;
+}
+.bio{
+	font-size: 14px;
+	color: black;
+	text-align: justify;
+	margin: 0 5%;
+}
+/*Intereses*/
+#AboutMe{
+	background-image: url("../images/tile1.png");
+}
+.sub{
+	font-size: 14px;
+	color: black;
+	text-align: center;
+	letter-spacing: 1px;
+}
+#Intereses img{
+	max-width: 150px;
+}
+.centrar{
+	text-align: center;
+}
+.circular{
+	border-radius: 100px;
+	border: 1px solid #373863;
+}
+.desc{
+	font-size: 12px;
+	color: black;
+}
+/*Footer*/
+#footer{
+	background-image: url("../images/tile2.png");
+}
+#footer img{
+	max-width: 60px;
+	margin: 0 10px;
+}
